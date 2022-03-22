@@ -4,7 +4,7 @@ function Contact() {
     return(
         <main className="contact-container">
         <form className="content-box">
-            <div className="left" style={hero}></div>
+            
             <div className="right">
                 <h2>Contact Us</h2>
                 <input type="text" className="field" pattern="[A-Za-z]*" placeholder="Full Name" required/>
