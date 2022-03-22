@@ -1,0 +1,19 @@
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    margin-top: 75px;
+    grid-gap: 2rem;
+    background-color: white;
+    box-shadow: 10px 5px 5px red;
+  }
+  .product >img {
+    height: 160px;
+    width: 140px;
+  }
+  .product{
+    padding: 5em;
+    text-align: center;
+    
+    background-color: white;
+  }
