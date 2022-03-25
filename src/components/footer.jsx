@@ -6,7 +6,7 @@ function Footer() {
         <div id="row">
             <div>
                 <h3>Drew's Closet</h3>
-                <p>&copy; 2021 Brian K, <i>All Rights Reserved</i></p>
+                <p>&copy; 2021  <i>All Rights Reserved</i></p>
             </div>
             <div id="footer-col-2">
                 <h3>Follow Our Social Media</h3>

@@ -19,8 +19,9 @@ function Product() {
 
                     <div class="col-sm-6">
                         <div id="hide" class="card">
-                            <img class="card-img-top" src={ record.image } alt="Card image cap"/>
+                            
                             <div class="card-body">
+                                <img class="card-img" src={ record.image } alt="Card image cap"/>
                                 <h4 id="text-bolder"class="card-title"> {record.title}</h4>
                                 <p class="card-text"> {record.description}</p>
                                 <p class="card-text"> {record.price}</p>

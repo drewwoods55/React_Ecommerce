@@ -10,26 +10,26 @@
     },
     {
         "id": 2,
-        "image": "assets/images/aj1.jpeg",
-        "Description": "Shattered Backboard 1s",
-        "size": "Mens: US 9",
-        "price": "$875.00"
+        "image": "assets/images/bape.jpeg",
+        "Description": "Bape Hoodie",
+        "size": "Mens: US XL",
+        "price": "$399.00"
         
     },
     {
         "id": 3,
-        "image": "assets/images/aj1.jpeg",
-        "Description": "Shattered Backboard 1s",
-        "size": "Mens: US 9",
-        "price": "$875.00"
+        "image": "assets/images/offwhite.jpeg",
+        "Description": "oFF-White Blazers",
+        "size": "Mens: US 13",
+        "price": "$960.00"
         
     },
     {
         "id": 4,
-        "image": "assets/images/aj1.jpeg",
-        "Description": "Shattered Backboard 1s",
-        "size": "Mens: US 9",
-        "price": "$875.00"
+        "image": "assets/images/basketball.jpeg",
+        "Description": "Complex Con BasketBall",
+        "size": "Indoor/Outdoor",
+        "price": "$120.00"
         
     }
     ,
@@ -43,18 +43,18 @@
     },
     {
         "id": 6,
-        "image": "assets/images/aj1.jpeg",
-        "Description": "Shattered Backboard 1s",
-        "size": "Mens: US 9",
-        "price": "$875.00"
+        "image": "assets/images/suppants.jpeg",
+        "Description": "Supreme Fox Sweatpants",
+        "size": "Mens: US XL",
+        "price": "$320.00"
         
     },
     {
         "id": 7,
-        "image": "assets/images/aj1.jpeg",
-        "Description": "Shattered Backboard 1s",
-        "size": "Mens: US 9",
-        "price": "$875.00"
+        "image": "assets/images/450slate.jpeg",
+        "Description": "Yeezy 450 Slate",
+        "size": "Mens: US 12",
+        "price": "$550.00"
         
     }
     ,

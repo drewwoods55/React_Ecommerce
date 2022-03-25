@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './index.css';
 
 function Home() {
     return(
@@ -6,10 +7,10 @@ function Home() {
 
     <div className="slideshow-container">
       <div className="slideshow">
-        <img src="hype.jpeg" alt="Slide 4"/>
-        <img src="nike_maxes.jpeg" alt="Slide 3"/>
-        <img src="preme.jpg" alt="Slide 2" />
-        <img src="rack.jpeg" alt="Slide 1" />
+        <img src="./assets/images/hype.jpeg" alt="Slide 4"/>
+        <img src="./assets/images/nike_maxes.jpeg" alt="Slide 3"/>
+        <img src="./assets/images/preme.jpg" alt="Slide 2" />
+        <img src="./assets/images/rack.jpeg" alt="Slide 1" />
       </div>
     </div>
 
