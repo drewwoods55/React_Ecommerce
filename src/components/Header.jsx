@@ -6,7 +6,7 @@ function Header() {
         <header>
         <div className="navbar">
             <div id="logo">
-                <Link to="/Home"><img src="assets/images/logo.png" style={{width: "125px"}}alt="logo"/></Link>
+                <Link to="/Home"><img src="assets/images/logo.png" style={{width: "50px"}}alt="logo"/></Link>
             </div>
             <nav>
                 <ul>

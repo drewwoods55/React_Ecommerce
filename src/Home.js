@@ -7,6 +7,7 @@ function Home() {
 
     <div className="slideshow-container">
       <div className="slideshow">
+        <img src="./assets/images/kaws.jpeg" alt="Slide 1" />
         <img src="./assets/images/hype.jpeg" alt="Slide 4"/>
         <img src="./assets/images/nike_maxes.jpeg" alt="Slide 3"/>
         <img src="./assets/images/preme.jpg" alt="Slide 2" />
