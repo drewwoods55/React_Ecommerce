@@ -5,9 +5,9 @@ function Header() {
     return (
         <header>
         <div className="navbar">
-            <div id="logo">
+            {/* <div id="logo">
                 <Link to="/Home"><img src="assets/images/logo.png" style={{width: "50px"}}alt="logo"/></Link>
-            </div>
+            </div> */}
             <nav>
                 <ul>
                     <li><Link to="/Home">Home</Link></li>

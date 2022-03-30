@@ -1,8 +1,22 @@
-import React from 'react'
-import Records from './productData.json';
+import React, {useState, useEffect} from 'react'
+// import Records from './productData.json';
 //import 'bootstrap/dist/css/bootstrap.min.css';
+import Axios from 'axios';
+// import { response } from 'express';
+
 
 function Product() {
+    const [products,setProducts] = useState([]);
+    useEffect (() => {
+        Axios.get('http://localhost:3001/api/products')
+        .then((response) => {
+            console.log(response.data)
+            setProducts(response.data)
+        })
+        .catch((err) => {
+            throw err
+        });
+    },[]) 
     return(
         // CARD 1
         <div>
@@ -15,7 +29,7 @@ function Product() {
         <div>
         <div id="cardAlign" class="row">
             {
-                Records.map(record => (
+                products.map(record => (
 
                     <div class="col-sm-6">
                         <div id="hide" class="card">
