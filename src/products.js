@@ -1,8 +1,6 @@
 import React, {useState, useEffect} from 'react'
-// import Records from './productData.json';
-//import 'bootstrap/dist/css/bootstrap.min.css';
 import Axios from 'axios';
-// import { response } from 'express';
+
 
 
 function Product() {
@@ -36,10 +34,10 @@ function Product() {
                             
                             <div class="card-body">
                                 <img class="card-img" src={ record.image } alt="Card image cap"/>
-                                <h4 id="text-bolder"class="card-title"> {record.title}</h4>
+                                <h4 id="text-bolder"class="card-title"> {record.size}</h4>
                                 <p class="card-text"> {record.description}</p>
                                 <p class="card-text"> {record.price}</p>
-                                <div class="btn btn-primary">Add to cart</div>
+                                <button class="btn btn-primary">Add to cart</button>
                                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                             </div>
                         </div>

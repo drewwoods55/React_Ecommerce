@@ -5,10 +5,12 @@ function Header() {
     return (
         <header>
         <div className="navbar">
-            {/* <div id="logo">
-                <Link to="/Home"><img src="assets/images/logo.png" style={{width: "50px"}}alt="logo"/></Link>
-            </div> */}
+        <div id="logo">
+                
+            </div> 
+            <Link to="/Home"><img src="assets/images/logo.png" style={{width: "50px"}}alt="logo"/></Link>
             <nav>
+            
                 <ul>
                     <li><Link to="/Home">Home</Link></li>
                     <li><Link to="/Products">Closet</Link></li>
